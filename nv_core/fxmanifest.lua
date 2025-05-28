@@ -2,9 +2,9 @@ fx_version 'cerulean'
 lua54 'yes'
 game 'gta5'
 
-author 'FiveM-Scripts'
-description 'Venomous Freemode Core'
-version '1.1.3'
+author 'Pinksheepdevelopment'
+description 'Nova Framework'
+version '1.0.0'
 
 resource_type 'gametype' { name = 'nv-framework' }
 
