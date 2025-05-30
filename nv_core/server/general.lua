@@ -26,7 +26,7 @@ end)
 
 -- Optional: Disable or move this if you're self-hosting
 PerformHttpRequest(
-    "https://raw.githubusercontent.com/FiveM-Scripts/venomous-freemode/master/vf_base/__resource.lua",
+    "https://raw.githubusercontent.com/Pink-Sheep-Development/nv-framework/master/nv_core/fxmanifest.lua",
     function(errorCode, result, headers)
         local version = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
         if result and result:find(version) == nil then
